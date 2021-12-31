@@ -111,7 +111,7 @@ If sucessfull, a folder "results" is created, with the csv final result.
 
 With the second terminal, download the csv in the result fodler.
 ```
-scp -v -i "my-key-pair.pem"  username@publicIP:~/data/sbt/pipeline/output/results/*.csv .
+scp -v -i "my-key-pair.pem"  username@publicIP:~/data/pipeline/output/results/*.csv .
 ```
 
 ## terminate the EC2
